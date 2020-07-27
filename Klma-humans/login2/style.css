@@ -1,0 +1,255 @@
+ 
+@font-face{
+    font-family:"absender";
+    src: url("./absender1.ttf");
+}
+
+
+#navbarNav{
+    height: 70px;
+    
+}
+
+.navbar-expand-lg{
+    padding: 0%;
+}
+
+.container-fluid{
+    padding: 0%;
+}
+
+.row{
+    width: 100%;
+}
+
+ul.mr-auto{
+    margin:0%;
+    float: left;
+    position: absolute;
+    top:-16px;
+    left: 95px;
+}
+
+.circulo{       
+    margin-left: 1%;
+    margin-top:1%;
+}
+
+.circulo a{
+    background-image:url("./img/circulo.png");
+    width:60px;
+    height: 60px;
+    background-size: 50px;
+}
+
+.titulo{
+    width: 254px;
+    height: 70px;
+    padding: 0px;
+}
+
+
+.menu-puntos , .menu-log , .menu-candado{
+    margin-top:0px;
+    margin-left: 65px;
+    
+}
+
+
+/* Titulo*/
+
+.titulo{
+    margin-top: 35px;
+}
+
+
+.titulo a{
+    background-image:url("./img/titulo-klma-humans.png");
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;        
+    padding: 0px;    
+    background-position-x: 75%;
+
+
+}
+
+
+
+
+.menu-puntos a, .menu-log a, .menu-candado a{
+    background-image:url("./img/menu-klma-humans.png");
+    width:35px;
+    height: 35px;
+    padding: 0%;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.menu-puntos a{
+    background-position: left;
+}
+
+.menu-log a{
+    background-position: center;
+
+}
+
+.menu-candado a{
+    background-position: right;
+
+}
+
+.menu-puntos a, .menu-log a, .menu-candado a, .circulo a{
+    background-repeat: no-repeat;
+}
+
+
+.img-form{
+    width: 190px;
+    height: 162px;
+    background-image: url("./img/imagen-login-klma-humans.png");
+    background-size: 190px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 11%;
+    margin-left: 12%;
+}
+
+.login-email{
+    background-image: url("./img/login-form-klma-humans_01.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 190px;
+    height: 30;
+    border: none;
+
+}
+
+.login-pass::placeholder, .login-email::placeholder{
+    font-family: absender;
+    text-align: center;
+    color: lightgrey;
+
+}
+
+.login-pass {
+    background-image: url("./img/login-form-klma-humans_02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 190px;
+    height: 30;
+    border: none;
+
+}
+.login-form{
+    margin-left:42%;
+}
+
+.form{
+    padding-left: 9%;
+    margin-top: 2%;
+
+}
+
+
+.forget-pass{
+   
+    
+}
+
+.forget-pass p, .sign-up p{
+    margin-top: 4%;
+    font-family:absender;
+    color:black;
+    text-align: center;
+    border-bottom: 2px solid ;
+    width:190px;
+    
+
+}
+
+.sign-up p{
+    margin-top: 0%;
+    font-family: absender;
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid;
+    width: 100px;
+    margin-left: 48%;
+    margin-bottom: 100px;   
+}
+
+.forget-pass:hover,.sign-up:hover{
+    text-decoration: none;
+}
+
+
+.img-barras {
+    position: absolute;
+    /*left: -15%;*/
+    background-repeat: no-repeat;
+    width: 732px;
+    height: 15px;
+    background-image: url("./img/barras-klma-humans.png");
+    background-size: 732px 37px;
+    margin-left: 21%;
+    margin-top: .5%;
+}
+
+.div-submit{
+    width: 190px;
+    height:50px;  
+
+   
+
+}
+.btn-submit{
+    background-image: url("./img/boton-login-klma-humans.png");
+    background-size:cover;
+    height: 45px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: none;
+    color: white;
+    margin-left: 42.8%;
+    margin-top: 1%;
+    width: 210px;
+
+
+
+}
+
+.btn-submit::placeholder{
+    font-family: absender;
+    color: white;
+}
+
+
+footer{
+    height: 150px;
+    background-color: #1d1d1b;
+}
+
+.hondas-footer{
+    background-position-x: 31px;
+    background-position-y: bottom;
+    height: 121px;
+    width: 85px;
+    background-image: url("./img/hondulaciones-klma-humans.png");
+    background-size: 91px;
+    background-repeat: no-repeat;
+}
+
+.logo-footer{
+    background-position-x: right;
+    background-position-y: bottom;
+    height: 121px;
+    width: 85px;
+    background-image: url("./img/logo-klma-humans.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
